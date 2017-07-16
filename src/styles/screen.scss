@@ -415,7 +415,27 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
   font-size: 20px;
   line-height: 45px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      vertical-align: inherit;
+    }
 }
+
+#frr {
+  position: relative;
+  left: -145px;
+    @media (max-width: 400px) {
+      position: relative;
+      left: 0px;
+    }
+}
+
+#fll {
+  float: right;
+}
+
 .scroll-top {
   position: fixed;
   right: 2%;
@@ -514,3 +534,9 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+// i.fa {
+//   height: 100%;
+//   width: 100%;
+//   border-radius: 50%;
+// }
