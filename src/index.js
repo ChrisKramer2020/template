@@ -2,6 +2,7 @@ import './styles/screen.scss'
 
 const main = () => {
   document.querySelector('h1').textContent += ''
+  var m = document.getElementByClassName('navbar-toggle')
 }
 
 document.addEventListener('DOMContentLoaded', main)
